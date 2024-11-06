@@ -19,19 +19,30 @@
     <form action="./winkelwagen.php" method="post">
         
         <img src="./img/spianata_piccante.jpg" alt=""><br>
-        <input type="checkbox" id="Berken" name="Berken">
-        <label for="Berken"> Pizza Spianata Piccante € 12,50</label> <br> <br>
+        <input type="checkbox" id="Spianata" name="Spianata">
+        <label for="Spianata"> Pizza Spianata Piccante € 12,50</label> <br> <br>
 
 
         <img src="./img/seppi.jpg" alt=""><br>
-        <input type="checkbox" id="grenen" name="grenen">
-        <label for="grenen">Pizza Seppi € 11,50</label> <br> <br>
+        <input type="checkbox" id="Seppi" name="Seppi">
+        <label for="Seppi">Pizza Seppi € 11,50</label> <br> <br>
         
         
         <img src="./img/tirato.jpg" alt=""><br>
-        <input type="checkbox" id="hardhout" name="hardhout">
-        <label for="hardhout">Pizza Tirato € 10,50</label> <br> <br>
+        <input type="checkbox" id="Tirato" name="Tirato">
+        <label for="Tirato">Pizza Tirato € 10,50</label> <br> <br>
         
+        <br><br>
+
+        <input type="checkbox" id="olijven" name="olijven">
+        <label for="olijven">Ik wil extra olijven bijbestellen € 2,50</label> <br> <br>
+
+        <input type="checkbox" id="kaas" name="kaas">
+        <label for="kaas">Ik wil extra kaas bijbestellen € 1,50</label> <br> <br>
+
+        <input type="checkbox" id="bezorgen" name="bezorgen">
+        <label for="bezorgen">Ik wil de pizza laten bezorgen € 3,50</label>
+
         <br><br>
         
         <input type="submit" value="submit">
