@@ -8,9 +8,15 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($_POST["submit"])) {
             if ($user == $username && $pass == $password) {
-                echo "inloggen gelukt";
+                echo "Welkom $username";
             } else {
-                echo "inloggen mislukt";
+                echo "Username of Wachtwoord is verkeert.";
+
+                echo "
+                        <form action='./index.php' method='post'> <br>
+                            <input type='submit' name='submit' value='opnieuw proberen'>
+                        </form>
+                    ";
             }
         }
     }
