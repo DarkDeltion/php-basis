@@ -8,18 +8,11 @@
 <body>
     <div id="imageContainer">
         <?php
-        // pas aan hoeveel foto's je hebt.
         $aantalAfbeeldingen = 5; 
-
-        // loop voor de images. zorgt er voor dat hij tot 5 fotos gaat en dan er een 1tje toevoegt.
         for ($i = 1; $i <= $aantalAfbeeldingen; $i++) {
-            
-            // de path naar de foto's
             $imagePath = "./images/afb{$i}.jpg";
-
-            // zorgt er voor dat de fotos bestaan en laat ze zien via een echo.
             if (file_exists($imagePath)) {
-                echo "<img src='{$imagePath}' alt='Afbeelding {$i}'>";
+                echo "<img src='{$imagePath}' alt='Afbeelding audi'>";
             } 
         }
         ?>
